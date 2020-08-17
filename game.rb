@@ -10,7 +10,6 @@ class Game
   end
 
   def new_turn
-    #puts @players.each {|player| puts "#{player.name} lives: #{player.lives}"}
     @players.each {|player| puts "#{player.name} lives: #{player.lives}"}
     puts '---------'
     puts 'New Turn'
