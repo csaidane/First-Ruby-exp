@@ -9,4 +9,7 @@ class Player
     puts "#{@name} lost a life!"
     @lives = @lives - 1
   end
+  def is_dead
+    @lives <= 0
+  end
 end
